@@ -51,4 +51,8 @@ python -m pip install -e '.[test]'
 pytest
 ```
 
+## Releasing
+
+The `publish.yml` workflow builds and publishes a `v*` tag to PyPI. Before the first tag, configure a PyPI Trusted Publisher for project `manim-hardware` with owner `walruto`, repository `manim-hardware`, workflow `publish.yml`, and environment `pypi`. The tag must match the version in `pyproject.toml` (for example, `v0.1.0`).
+
 The package is MIT licensed. This repository is the library source.
