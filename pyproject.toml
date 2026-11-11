@@ -12,7 +12,6 @@ license = "MIT"
 keywords = ["manim", "computer architecture", "hardware", "animation"]
 classifiers = [
   "Development Status :: 3 - Alpha",
-  "Framework :: Manim",
   "Programming Language :: Python :: 3",
 ]
 dependencies = ["manim>=0.19.2,<0.23", "numpy>=1.26"]
